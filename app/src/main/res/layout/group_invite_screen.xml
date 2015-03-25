@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/main_bg_color"
+    android:orientation="vertical"
+    tools:context="com.src.adrien.gotcha.SignUpActivity">
+
+    <TextView
+        android:id="@+id/add_members_category_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="@dimen/actionbar_title_small_size"
+        android:textColor="@color/category_text_color"
+        android:text="@string/add_group_members"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_button_height"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_members_search_btn"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@drawable/search_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"/>
+
+        <EditText
+            android:id="@+id/add_members_search_edt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="9dp"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/normal_button_small_text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/hint_text_color"
+            android:hint="@string/invite_member_hint"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/add_members_desc_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/actionbar_title_small_size"
+        android:textColor="@color/terms_text_color"
+        android:text="@string/add_group_members_hint"/>
+
+</LinearLayout>

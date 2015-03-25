@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Gotcha.iml" filepath="$PROJECT_DIR$/Gotcha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_pageindicator/lib_pageindicator.iml" filepath="$PROJECT_DIR$/lib_pageindicator/lib_pageindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipeMenuListView/swipeMenuListView.iml" filepath="$PROJECT_DIR$/swipeMenuListView/swipeMenuListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/systembartint-1.0.4/systembartint-1.0.4.iml" filepath="$PROJECT_DIR$/systembartint-1.0.4/systembartint-1.0.4.iml" />
+    </modules>
+  </component>
+</project>
+

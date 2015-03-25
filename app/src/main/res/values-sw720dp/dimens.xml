@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">32dp</dimen>
+    <dimen name="activity_vertical_margin">32dp</dimen>
+
+    <!-- Normal Values -->
+    <dimen name="normal_button_height">88dp</dimen>
+    <dimen name="normal_button_text">40sp</dimen>
+    <dimen name="normal_button_small_text">32sp</dimen>
+    <dimen name="normal_edittext_height">100dp</dimen>
+    <dimen name="normal_button_round">12dp</dimen>
+    <dimen name="tab_bar_height">110dp</dimen>
+    <dimen name="tab_text_size">24sp</dimen>
+
+    <!-- Action Bar Values -->
+    <dimen name="actionbar_title_size">48sp</dimen>
+    <dimen name="actionbar_title_small_size">36sp</dimen>
+
+    <!-- Splash screen values -->
+    <dimen name="splash_top_margin">60dp</dimen>
+
+    <!-- Sign Up screen values -->
+    <dimen name="signup_image_container_size">300dp</dimen>
+    <dimen name="signup_profile_image_size">200dp</dimen>
+
+    <!-- Create Group screen values -->
+    <dimen name="create_group_image_width">132dp</dimen>
+
+    <!-- Group List Item -->
+    <dimen name="list_group_large_size">36sp</dimen>
+    <dimen name="list_group_normal_size">32sp</dimen>
+    <dimen name="list_group_small_size">24sp</dimen>
+    <dimen name="badge_width">48dp</dimen>
+    <dimen name="list_group_item_height">192dp</dimen>
+    <dimen name="list_group_arrow_width">16dp</dimen>
+    <dimen name="list_more_button_width">96dp</dimen>
+
+    <!-- My Dues Home Screen values -->
+    <dimen name="my_dues_close_btn_width">32dp</dimen>
+
+</resources>

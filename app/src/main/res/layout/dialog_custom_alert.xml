@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cadllMain"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="ButtonOrder" >
+
+    <TextView
+        android:id="@+id/custom_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_top_white_corner"
+        android:gravity="center_horizontal|bottom"
+        android:paddingBottom="5dp"
+        android:paddingTop="25dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/actionbar_title_size"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/custom_dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#eeffffff"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="25dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/actionbar_title_small_size" />
+
+    <View
+        android:id="@+id/custom_dialog_seperate_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#d4d4d4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/custom_dialog_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/normal_button_height"
+            android:background="@drawable/round_bottom_white_corner"
+            android:text="OK"
+            android:textColor="@color/take_picture_cancel_color"
+            android:textSize="@dimen/actionbar_title_size"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

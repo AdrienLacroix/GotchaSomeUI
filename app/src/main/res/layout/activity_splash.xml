@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#e7e7e9"
+    tools:context=".SplashActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/splash_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/splash_top_margin"/>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/splash_indicator"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:layout_above="@+id/splash_login_btn"/>
+
+    <Button
+        android:id="@+id/splash_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_button_height"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="bottom|center_horizontal"
+        android:layout_above="@+id/splash_sign_up_btn"
+        android:background="@android:color/transparent"
+        android:textColor="#58585a"
+        android:textSize="@dimen/normal_button_text"
+        android:text="@string/splash_login"
+        android:onClick="onLogin"/>
+
+    <Button
+        android:id="@+id/splash_sign_up_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="#58585a"
+        android:textColor="#fff"
+        android:textSize="@dimen/normal_button_text"
+        android:text="@string/splash_sign_up"
+        android:onClick="onSignUp"/>
+
+</RelativeLayout>

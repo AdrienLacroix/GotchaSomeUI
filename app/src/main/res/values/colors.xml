@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="category_text_color">#ec1b3b</color>
+    <color name="main_bg_color">#e7e7e8</color>
+    
+    <color name="app_gray_color">#bcbec0</color>
+    <color name="take_picture_cancel_color">#eb4258</color>
+    <color name="terms_text_color">#58595b</color>
+
+    <color name="tab_bar_bg_color">#f6f6f6</color>
+    <color name="tab_bar_text_s_color">#e82a2c</color>
+    <color name="tab_bar_text_n_color">#949293</color>
+
+    <color name="hint_text_color">#a7a9ac</color>
+
+    <color name="group_name_color">#949393</color>
+    <color name="group_description_color">#c4c4c4</color>
+
+    <color name="more_button_bg_color">#f15825</color>
+    <color name="trash_button_bg_color">#ec1b3c</color>
+</resources>

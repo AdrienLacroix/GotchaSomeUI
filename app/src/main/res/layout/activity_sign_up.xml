@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/main_bg_color"
+    tools:context="com.src.adrien.gotcha.SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/signup_image_container_size">
+
+                <ImageView
+                    android:id="@+id/sign_up_profile_img"
+                    android:layout_width="@dimen/signup_profile_image_size"
+                    android:layout_height="@dimen/signup_profile_image_size"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:layout_centerInParent="true"/>
+
+                <Button
+                    android:id="@+id/sign_up_profile_btn"
+                    android:layout_width="@dimen/signup_profile_image_size"
+                    android:layout_height="@dimen/signup_profile_image_size"
+                    android:background="@drawable/signup_profile_bg"
+                    android:contentDescription="@string/app_name"
+                    android:layout_centerInParent="true"
+                    android:onClick="onProfileBtn"/>
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/sign_up_name_edt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/normal_edittext_height"
+                android:background="#fff"
+                android:layout_marginBottom="0.7dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:hint="Full name and surname"/>
+
+            <EditText
+                android:id="@+id/sign_up_email_edt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/normal_edittext_height"
+                android:background="#fff"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="0.7dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:hint="Your email"/>
+
+            <EditText
+                android:id="@+id/sign_up_phone_edt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/normal_edittext_height"
+                android:background="#fff"
+                android:inputType="phone"
+                android:layout_marginBottom="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:hint="Mobile No. (Recommended)"/>
+
+            <EditText
+                android:id="@+id/sign_up_username_edt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/normal_edittext_height"
+                android:background="#fff"
+                android:layout_marginBottom="0.7dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:hint="Username"/>
+
+            <EditText
+                android:id="@+id/sign_up_password_edt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/normal_edittext_height"
+                android:background="#fff"
+                android:inputType="textPassword"
+                android:layout_marginBottom="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:hint="Password"/>
+
+            <TextView
+                android:id="@+id/sign_up_or_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="or"
+                android:textSize="@dimen/normal_button_text"
+                android:textColor="#58585a"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/normal_button_height"
+                android:background="#58585a"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="@dimen/normal_button_text"
+                android:text="Sign in with Facebook"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/sign_up_terms_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/normal_button_height"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="@dimen/normal_button_small_text"
+                android:text="Terms of service and privacy policy"
+                android:textColor="#58585a"
+                android:onClick="goTerms"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

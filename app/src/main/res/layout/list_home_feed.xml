@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/group_home_list_front"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_group_item_height">
+
+        <ImageView
+            android:id="@+id/list_group_image_view"
+            android:layout_width="@dimen/create_group_image_width"
+            android:layout_height="@dimen/create_group_image_width"
+            android:adjustViewBounds="true"
+            android:layout_margin="15dp"
+            android:src="@drawable/group_undefined"/>
+
+        <TextView
+            android:layout_width="@dimen/badge_width"
+            android:layout_height="@dimen/badge_width"
+            android:layout_alignLeft="@+id/list_group_image_view"
+            android:layout_alignTop="@+id/list_group_image_view"
+            android:background="@drawable/badge_bg"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/list_group_small_size"
+            android:text="33"/>
+
+        <LinearLayout
+            android:id="@+id/list_group_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/list_group_image_view">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/group_name_color"
+                android:textSize="@dimen/list_group_large_size"
+                android:text="Action Criket"
+                android:singleLine="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/group_description_color"
+                android:textSize="@dimen/list_group_normal_size"
+                android:text="Melanie Van Tonder:"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/list_group_description_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/list_group_small_size"
+            android:textColor="@color/group_description_color"
+            android:text="You go John."
+            android:singleLine="true"
+            android:layout_toRightOf="@+id/list_group_image_view"
+            android:layout_below="@+id/list_group_main_layout"
+            android:layout_toLeftOf="@+id/list_group_type_txt"/>
+
+        <ImageView
+            android:id="@+id/list_group_arrow_image"
+            android:layout_width="@dimen/list_group_arrow_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/arrow_right"/>
+
+        <TextView
+            android:id="@+id/list_group_type_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/list_group_small_size"
+            android:textColor="@color/group_description_color"
+            android:text="You go John."
+            android:layout_alignRight="@+id/list_group_arrow_image"
+            android:layout_alignTop="@+id/list_group_description_txt"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
